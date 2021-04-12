@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>User Register page</h1><br>
+		<form action="login.do" method="post">
+			NAME:<input type = "text" name = "Customer name" placeholder="Enter your name"/>
+			
+			User id:<input type = "text" name = "Customerid" placeholder="Enter your unique"/>
+			
+			Address:<input type = "text" name = "Customer address" placeholder="Enter your address"/>
+			
+			Phone number:<input type="text" name = "customerphone" pattern="[0-9]{10}" placeholder = "enter your phone number">
+			
+			Email id:<input type = "text" name = "Customeremail" placeholder="Enter your emailid"/>
+			
+			GST number:<input type = "number" name = "Customer GST number" />
+			<input type="hidden" name = "formid" value = "signup"/>
+			<input type="Submit" value="Signup"/>
+		</form>
+</body>
+</html>

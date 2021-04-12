@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib
+  PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+  "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+<taglib>
+  <tlibversion>1.0</tlibversion>
+  <jspversion>1.1</jspversion>
+  <shortname>my coda tag library</shortname>
+  
+  <tag>
+    <name>listItems</name>
+    <tagclass>control.ListItems</tagclass>
+    <bodycontent>empty</bodycontent>
+    <attribute>
+      <name>session</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+ <tag>
+    <name>invoice</name>
+    <tagclass>control.ShowInvoice</tagclass>
+    <bodycontent>empty</bodycontent>
+    <attribute>
+      <name>session</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    </tag>
+    <tag>
+    <name>internationalizedLogin</name>
+    <tagclass>control.InternationalizedLogin</tagclass>
+    <bodycontent>empty</bodycontent>
+    <attribute>
+      <name>session</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    
+  </tag>
+  
+</taglib>
